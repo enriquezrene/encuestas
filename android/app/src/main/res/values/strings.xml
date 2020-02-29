@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">encuestas</string>
+    <string name="title_activity_main">encuestas</string>
+    <string name="package_name">com.itelsys.encuestas</string>
+    <string name="custom_url_scheme">com.itelsys.encuestas</string>
+</resources>

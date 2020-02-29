@@ -1,0 +1,8 @@
+{
+  "appId": "com.itelsys.encuestas",
+  "appName": "encuestas",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
