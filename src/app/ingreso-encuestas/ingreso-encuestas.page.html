@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ingreso-encuestas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-item>
+        <ion-label position="floating">Registro organizaci&oacute;n campesina</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Nombre organizaci&oacute;n</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Provincia</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label position="floating">Dispensario</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      
+      <ion-button expand="block">Consultar</ion-button>
+
+      <ion-list>
+          <ion-list-header>
+            <ion-label>
+              Interface Options
+            </ion-label>
+          </ion-list-header>
+        
+          
+          <ion-item>
+            <ion-label>Action Sheet</ion-label>
+            <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">
+              <ion-select-option value="red">Red</ion-select-option>
+              <ion-select-option value="purple">Purple</ion-select-option>
+              <ion-select-option value="yellow">Yellow</ion-select-option>
+              <ion-select-option value="orange">Orange</ion-select-option>
+              <ion-select-option value="green">Green</ion-select-option>
+            </ion-select>
+          </ion-item>
+        
+        </ion-list>
+
+</ion-content>
